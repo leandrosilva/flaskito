@@ -1,0 +1,7 @@
+#!/bin/sh
+
+(cd src && jar cvf ../dist/flaskito.war .)
+
+echo
+echo Packing was successful
+ls -la dist/flaskito.war

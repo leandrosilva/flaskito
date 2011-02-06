@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cp dist/flaskito.war /opt/jetty/webapps
+
+echo
+echo Deploying was successful
+ls -la /opt/jetty/webapps/flaskito.war
